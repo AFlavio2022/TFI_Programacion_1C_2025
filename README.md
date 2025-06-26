@@ -9,6 +9,6 @@
 ## Materia
  Progrmación
 ## Programa Utilizado
-  PseInt
+  PSeInt
 ## Descripción Breve descripción del TFI.
   Se encuentran desarrollados los ejercicios planteados para el trabajo final integrador, en el cual se vuelcan los contenidos y conceptos desarrollados a lo largo de la     cursada.
