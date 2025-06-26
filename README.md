@@ -1,2 +1,14 @@
-# TFI_Programaci-n1C_2025
-Entrega del trabajo final integrador del Grupo N°9
+## Trabajo Intregador Final
+## Integrantes del equipo
+- Flavio Ezequiel Alonso Mileo
+- Ezequiel Miguel Garofalo
+- Carlos Gabriel González Zarza
+- Christian Augusto Arriola
+## Carrera
+  Tecnicatura Universitaria en Telecomunicaciones
+## Materia
+ Progrmación
+## Programa Utilizado
+  PseInt
+## Descripción Breve descripción del TFI.
+  Se encuentran desarrollados los ejercicios planteados para el trabajo final integrador, en el cual se vuelcan los contenidos y conceptos desarrollados a lo largo de la     cursada.
