@@ -1,20 +1,26 @@
 Algoritmo Calculadora
+//Se definen las variables a utilizarse en el programa, los n煤meros a ingresar, la opci贸n a elegir y el resultado que se brinda
 	Definir Numero1, Numero2, Resultado Como Real
 	Definir Operacion Como Entero
-	Escribir "Ingrese el primer n鷐ero:"
+//Se solicita al usuario ingresar los n煤meros y se leen los n煤meros ingresados.
+	Escribir "Ingrese el primer n煤mero:"
 	Leer  Numero1
-	Escribir "Ingrese el segundo n鷐ero:"
+	Escribir "Ingrese el segundo n煤mero:"
 	Leer Numero2
-	Escribir "Elija la operaci髇 que desea realizar, siendo:"
-	Escribir "1: Suma, 2: Resta, 3: Multiplicaci髇, 4: Divisi髇"
-	Escribir "Su opci髇 es:"
+//Se solicita al usuario elegir la operaci贸n que desea realizar indicado por el n煤mero que se muestra
+	Escribir "Elija la operaci贸n que desea realizar, siendo:"
+	Escribir "1: Suma, 2: Resta, 3: Multiplicaci贸n, 4: Divisi贸n"
+	Escribir "Su opci贸n es:"
 	Leer Operacion
+//Si el usuario ingresar谩 un n煤mero que no corresponde a las opciones brindadas, muestra el mensaje de reintento y solicita ingresar de nuevo una opci贸n v谩lida
 	Mientras Operacion < 1 O Operacion > 4 Hacer
-		Escribir "Pruebe nuevamente. Ingrese uno de los n鷐eros asignados a las operaciones."
-		Escribir "1: Suma, 2: Resta, 3: Multiplicaci髇, 4: Divisi髇"
-		Escribir "Su opci髇 es:"
+		Escribir "Pruebe nuevamente. Ingrese uno de los n煤meros asignados a las operaciones."
+		Escribir "1: Suma, 2: Resta, 3: Multiplicaci贸n, 4: Divisi贸n"
+		Escribir "Su opci贸n es:"
 		Leer Operacion
+//Si el n煤mero ingresado est谩 dentro de las opciones v谩lidas cierra el bucle
 	Fin Mientras
+//Se realizan los condicionales dependiendo el n煤mero ingresado; dependiendo el n煤mero ingresado se ingresa en el bucle espec铆fico
 	Si Operacion = 1 Entonces
 		Resultado = Numero1 + Numero2
 	SiNo Si Operacion = 2 Entonces
@@ -27,5 +33,6 @@ Algoritmo Calculadora
 			Resultado = Numero1 / Numero2
 		FinSi
 	FinSi
-	Mostrar "El resultado de la operaci髇 es: ", Resultado
+//Luego de realizar la operaci贸n correspondiente al n煤mero ingresado, se muestra el resultado con el siguiente mensaje
+	Mostrar "El resultado de la operaci贸n es: ", Resultado
 FinAlgoritmo
