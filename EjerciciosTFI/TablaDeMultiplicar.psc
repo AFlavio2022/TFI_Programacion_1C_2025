@@ -10,5 +10,5 @@ Algoritmo TablaDeMultiplicar
 		Producto = NumeroFactor * Multiplicador
 //Se muestra en pantalla cada multiplicación, visualizando el número ingresado por el usuario, el multiplicador variando con cada ciclo y el producto de la multiplicación de ambos elementos
 		Mostrar "El resultado de la operación ", NumeroFactor, " x ", Multiplicador, " = ", Producto
-	Fin Para
+	FinPara
 FinAlgoritmo
