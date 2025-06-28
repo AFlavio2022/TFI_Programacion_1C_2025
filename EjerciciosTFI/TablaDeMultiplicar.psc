@@ -1,10 +1,14 @@
 Algoritmo TablaDeMultiplicar
+//Se definen las variables a utilizar en el programa
 	Definir NumeroFactor, Producto Como Real
 	Definir Multiplicador Como Entero
-	Escribir "Ingrese un n鷐ero que desea multiplicar:"
+//Se solicita al usuario ingresar un n煤mero que desee multiplicar y se le asigna a la variable NumeroFactor
+	Escribir "Ingrese un n煤mero que desea multiplicar:"
 	Leer NumeroFactor
+//Se genera un ciclo iterativo Para, con el fin de que cada vez que se realice una multiplicaci贸n se muestre en pantalla, siendo el fin, que el multiplicador sea 20
 	Para Multiplicador <- 1 Hasta 20 Con Paso 1 Hacer
 		Producto = NumeroFactor * Multiplicador
-		Mostrar "El resultado de la operaci髇 ", NumeroFactor, " x ", Multiplicador, " = ", Producto
+//Se muestra en pantalla cada multiplicaci贸n, visualizando el n煤mero ingresado por el usuario, el multiplicador variando con cada ciclo y el producto de la multiplicaci贸n de ambos elementos
+		Mostrar "El resultado de la operaci贸n ", NumeroFactor, " x ", Multiplicador, " = ", Producto
 	Fin Para
 FinAlgoritmo
